@@ -6,7 +6,7 @@
 
 *本项目处于早期阶段，如果遇到问题，欢迎提交issue反馈*
 
-相关实现[Fabric](https://github.com/TGBUG/MaiBot-Adapter-Fabric)
+相关实现[Fabric Mod](https://github.com/TGBUG/MaiBot-Adapter-Fabric)
 
 ## 功能
 

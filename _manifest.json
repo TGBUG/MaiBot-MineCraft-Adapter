@@ -24,7 +24,7 @@
     "max_version": "2.99.99"
   },
   "dependencies": [],
-  "capabilities": ["send_message", "route_message", "gateway_state"],
+  "capabilities": ["route_message", "gateway_state"],
   "i18n": {
     "default_locale": "zh-CN",
     "supported_locales": ["zh-CN"]

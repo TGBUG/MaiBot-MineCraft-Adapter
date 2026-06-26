@@ -194,8 +194,6 @@ class MinecraftAdapterPlugin(MaiBotPlugin):
         name=GATEWAY_NAME,
         platform="minecraft",
         protocol="minecraft_ws",
-        account_id="MaiBot",
-        scope="primary",
         description="Minecraft 服务器消息网关，负责 MC 聊天与 MaiBot 之间的双向同步",
     )
     async def send_to_minecraft(self, message: Any, route: Any = None, metadata: Any = None, **kwargs: Any) -> dict[str, Any]:
