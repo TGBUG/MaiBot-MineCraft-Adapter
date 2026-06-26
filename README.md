@@ -6,6 +6,8 @@
 
 *本项目处于早期阶段，如果遇到问题，欢迎提交issue反馈*
 
+相关实现[Fabric](https://github.com/TGBUG/MaiBot-Adapter-Fabric)
+
 ## 功能
 
 - **双向聊天同步** — MC 玩家聊天消息实时推送到 MaiBot 群聊流，AI 回复自动发送回游戏
