@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "id": "com.maibot.minecraft-adapter",
+  "version": "1.0.0",
+  "name": "Minecraft 适配器",
+  "description": "通过 WebSocket 连接 Minecraft 服务器，支持 AI 执行 MC 命令和双向聊天同步",
+  "author": {
+    "name": "MaiBot 社区",
+    "url": "https://github.com/TGBUG"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/TGBUG/MaiBot-MineCraft-Adapter",
+    "homepage": "https://github.com/TGBUG/MaiBot-MineCraft-Adapter",
+    "documentation": "https://github.com/TGBUG/MaiBot-MineCraft-Adapter/blob/main/README.md",
+    "issues": "https://github.com/TGBUG/MaiBot-MineCraft-Adapter/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.99.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [],
+  "capabilities": ["send_message", "route_message", "gateway_state"],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": ["zh-CN"]
+  }
+}
