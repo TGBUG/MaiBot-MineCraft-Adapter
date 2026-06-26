@@ -298,37 +298,6 @@ MC 玩家在游戏内发送的原始聊天文本。
 
 > `is_group = false` 时，`group_info` 不出现在 `message_info` 中，Host 将其识别为私聊。
 
-## 测试
-
-项目包含模拟 MC 端 WS 服务，可用于独立测试：
-
-```bash
-python test_mc_ws_server.py --port 8765
-```
-
-完整参数：
-
-```bash
-python test_mc_ws_server.py --port 8765 --host 0.0.0.0 --token mytoken --path /minecraft
-```
-
-| 参数 | 默认值 | 说明 |
-|------|--------|------|
-| `--port` | `8765` | 监听端口 |
-| `--host` | `0.0.0.0` | 监听地址 |
-| `--token` | `""` | 鉴权令牌，留空则不要求鉴权 |
-| `--path` | `/minecraft` | WS 路径 |
-
-启动后在终端输入命令模拟 MC 行为：
-
-```
-chat Steve 你好     # 模拟玩家聊天
-join Alex           # 模拟玩家加入
-leave Alex          # 模拟玩家离开
-```
-
-插件配置中将 `ws_url` 设为 `ws://localhost:8765/minecraft` 即可连接测试
-
 ## 开发注意事项
 
 ### MC 端 WS 服务实现要点
