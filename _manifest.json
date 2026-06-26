@@ -5,7 +5,7 @@
   "name": "Minecraft 适配器",
   "description": "通过 WebSocket 连接 Minecraft 服务器，支持 AI 执行 MC 命令和双向聊天同步",
   "author": {
-    "name": "MaiBot 社区",
+    "name": "TGBUG",
     "url": "https://github.com/TGBUG"
   },
   "license": "MIT",
