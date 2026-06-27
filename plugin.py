@@ -172,6 +172,7 @@ class MinecraftAdapterPlugin(MaiBotPlugin):
         if self._connect_task:
             self._connect_task.cancel()
             self._connect_task = None
+        await self._report_gateway_offline()
         await self._cleanup_connection()
 
     async def on_config_update(self, scope: str, config_data: dict[str, Any], version: str) -> None:
